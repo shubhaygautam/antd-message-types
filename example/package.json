@@ -1,0 +1,24 @@
+{
+  "name": "@oriserve-chatbot/message-types-example",
+  "homepage": "https://www.npmjs.com/package/@oriserve-chatbot/message-types",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "antd": "4.16.11",
+    "classnames": "2.2.6",
+    "lodash": "^4.17.15",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
+    "react-icons": "2.2.7",
+    "@oriserve-chatbot/message-types": "file:.."
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

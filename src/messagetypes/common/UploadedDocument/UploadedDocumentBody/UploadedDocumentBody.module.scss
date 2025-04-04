@@ -1,0 +1,16 @@
+@import "../../../../data/config/styles/colors.scss";
+
+.previewOverlayContainer {
+  z-index: 9999999;
+  position: fixed;
+  flex: 1;
+  padding: 30px;
+  background-color: $black-overlay-light;
+}
+
+.previewClose {
+  position: absolute !important;
+  top: -25px !important;
+  right: -25px !important;
+  border-radius: 50% !important;
+}

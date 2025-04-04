@@ -1,0 +1,52 @@
+@import "../../../../data/config/styles/colors.scss";
+
+.textWithMediaContainer {
+  word-break: break-word;
+}
+
+.previewOverlayContainer {
+  z-index: 9999999;
+  position: fixed;
+  flex: 1;
+  padding: 30px;
+  background-color: $black-overlay-light;
+}
+
+.title {
+  // composes: CapitalizeFirst from "../../../../data/config/styles/common.scss";
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .ie10upTextWithMediaContainer {
+    max-width: 265px;
+  }
+}
+
+.overlayButton {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+.overlayButton:hover {
+  filter: drop-shadow(0px 0px 4px black);
+}
+
+.overlayIframeLoading {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: $black-overlay-light;
+}
+
+.previewClose {
+  position: absolute !important;
+  top: -25px !important;
+  right: -25px !important;
+  border-radius: 50% !important;
+}
