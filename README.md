@@ -2,12 +2,10 @@
 
 > react library for chatbot message types
 
-[![NPM](https://img.shields.io/npm/v/@oriserve-chatbot/message-types.svg)](https://www.npmjs.com/package/@oriserve-chatbot/message-types) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
 ## Install
 
 ```bash
-npm install --save @oriserve-chatbot/message-types
+npm install --save antd-message-types
 ```
 
 ## Usage
@@ -15,7 +13,7 @@ npm install --save @oriserve-chatbot/message-types
 ```jsx
 import React, { Component } from 'react'
 
-import { MyComponent } from '@oriserve-chatbot/message-types'
+import { MyComponent } from 'antd-message-types'
 
 class Example extends Component {
   render () {
@@ -39,6 +37,6 @@ git push
 
 ## License
 
-MIT © [oriserve](https://www.npmjs.com/~oriserve-dev)
+MIT © 
 
 
